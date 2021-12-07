@@ -22,7 +22,7 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:7001/eureka/
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
   instance:
     instance-id: springcloud-provider-dept-8001
 
@@ -35,6 +35,6 @@ management:
         include: "*"
 
 info:
-  app.name: springcloud-service-news
-  company.name: www.mark.com
+  app.name: springcloud-provider-dept
+  company.name: www.springcloud.com
 
