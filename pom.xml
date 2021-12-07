@@ -27,6 +27,7 @@
 
     <dependencyManagement>
         <dependencies>
+
             <!-- spring-cloud-dependencies -->
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
@@ -87,9 +88,8 @@
                 <artifactId>log4j</artifactId>
                 <version>${log4j.version}</version>
             </dependency>
-
-
         </dependencies>
     </dependencyManagement>
+
 
 </project>
