@@ -27,7 +27,7 @@ public class DeptConsumerController {
         return restTemplate.postForObject(REST_URL_PREFIX+"/dept/add",dept,Boolean.class);
     }
 
-    @GetMapping("/consumer/dept/get/{id}")
+    @GetMapping("/consumer/dept/query/{id}")
     public Dept getDept(@PathVariable("id") Long id){
         return restTemplate.getForObject(REST_URL_PREFIX+"/dept/query/"+id,Dept.class);
     }

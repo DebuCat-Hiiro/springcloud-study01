@@ -17,7 +17,6 @@
     </properties>
 
     <dependencies>
-
         <!-- spring-cloud-starter-netflix-eureka-client -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>

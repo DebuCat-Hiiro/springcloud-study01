@@ -5,6 +5,7 @@ server:
 eureka:
   instance:
     hostname: eureka7001.com   #Eureka服务端的实例名称
+    prefer-ip-address: true   #可以显示服务的ip
   client:
     register-with-eureka: false   #表示是否向eureka注册中心注册自己
     fetch-registry: false     #false 表示自己为注册中心
