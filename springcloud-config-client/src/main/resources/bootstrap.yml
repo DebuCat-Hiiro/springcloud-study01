@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    config:
+      label: master
+      # 需要从git上获取的资源名称，不需要后缀
+      name: config-client
+      profile: dev
+      uri: http://localhost:3344

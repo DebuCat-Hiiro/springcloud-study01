@@ -15,11 +15,14 @@
         <module name="springcloud-zuul-9527" />
         <module name="springcloud-eureka-7003" />
         <module name="springcloud-eureka-7002" />
-        <module name="springcloud-eureka-7001" />
         <module name="springcloud-consumer-dept-hystrix-dashboard" />
+        <module name="springcloud-eureka-7001" />
+        <module name="springcloud-config-eureka-7001" />
+        <module name="springcloud-provider-config-dept-8001" />
         <module name="springcloud-provider-dept-hystrix-8001" />
         <module name="springcloud-api" />
         <module name="springcloud-config-server-3344" />
+        <module name="springcloud-config-client" />
       </profile>
     </annotationProcessing>
   </component>
